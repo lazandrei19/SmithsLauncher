@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Stone them to death",
+    "description": "Although you do not have enough money for materials, there is no need to fret. Every blacksmith has an unlimited supply of stone. It is not great but it should sell for enough to get you started. Now go build a stone sword!",
+    "reward": {
+      "type": "money",
+      "value": 25
+    },
+    "requirements": {
+      "type": "sword",
+      "value": {
+        "bladeMaterial": ["Stone"],
+        "guardMaterial": ["Stone"],
+        "handleMaterial": ["Stone"],
+        "pommelMaterial": ["Stone"]
+      }
+    }
+  },
+
+  {
+    "name": "Real bussines",
+    "description": "You should now have enough money to buy some real materials and by that I mean some wood, which I admit is not a great improvement over stone. But hey, atleast it's cheap!",
+    "reward": {
+      "type": "money",
+      "value": 50
+    },
+    "requirements": {
+      "type": "buy",
+      "value": {
+        "material": "Wood",
+        "count": 4
+      }
+    }
+  },
+
+  {
+    "name": "Matters of length",
+    "description": "As the Sherlock in you may have noticed, swords have different lengths which in turn affect the balance of the sword. The longer the blade, the heavier it gets. To avoid angry customers you will want the blade to have roughly the same weight with the weight of the guard, handle and pommel combined. Now, go and build a sword of atleast 7 stars balance.",
+    "reward": {
+      "type": "material",
+      "value": {
+        "material": "Steel",
+        "count": 1
+      },
+    },
+    "requirements": {
+      "type": "sword",
+      "value": {
+        "minBalance": 0.2,
+		"maxBalance": 1.2
+      }
+    }
+  }
+
+  {
+    "name": "Only quality will last",
+    "description": "Any blacksmith should know what a quality material does to a sword. Hint: it makes it sturdier. From this we can infer that the quality of the material is directly proportional to the durability of a sword. With this in mind, and a piece of steel build me a sword of atleast 1 star durability.",
+    "reward": {
+      "type": "money",
+      "value": 125
+    },
+    "requirements": {
+      "type": "sword",
+      "value": {
+        "minDurability": 3
+      }
+    }
+  }
+]

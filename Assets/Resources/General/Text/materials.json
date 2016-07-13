@@ -1,0 +1,63 @@
+[{
+    "name": "Stone",
+    "description": "",
+    "quality": 1,
+    "weight": 2.5,
+    "sharpness": 0.75,
+    "difficulty": 0.5,
+    "price": 0
+},
+{
+    "name": "Wood",
+    "description": "It is used for fire, for furniture, for buildings, even for toys, but rarely for weapons. Although, it makes for a decent material to make a blade. It doesn't shatter the moment you pick it up and it's quite light, but just don't expect to slice anything with it.",
+    "quality": 1,
+    "weight": 1,
+    "sharpness": 0.5,
+    "difficulty": 0.5,
+    "price": 10
+},
+{
+    "name": "Steel",
+    "description": "A blacksmith's best friend. Heavy, moderately sharp, and quite cheap. Fortunately the sword made from it are not sold for cheap, and good news is that if the sword fails the soldier he probably won't live to report you for bad craftsmanship!",
+    "quality": 3,
+    "weight": 3,
+    "sharpness": 1,
+    "difficulty": 0.75,
+    "price": 100
+},
+{
+    "name": "Bone",
+    "description": "Thank the Nines for cannibalism! Without it we wouldn't have this surprisingly light yet sharp miracle which is normally found in the human body. Just don't show it to cannibalism protestants...",
+    "quality": 1.5,
+    "weight": 0.75,
+    "sharpness": 1.5,
+    "difficulty": 1,
+    "price": 275
+},
+{
+    "name": "Praseodymium",
+    "description": "A fairly recent discovery, as it can be seen from the name...damn scientists and their weird brains. It provides great quality, quite mediocre weight and it's not too hard to process either. Only downside is that it's softer than a baby's bottom...not great for blades.",
+    "quality": 3,
+    "weight": 2,
+    "sharpness": 0.75,
+    "difficulty": 1.25,
+    "price": 200
+},
+{
+    "name": "Noqium",
+    "description": "The mysterious purple glow emitted by it has made it a very suitable material for excentric (and rich) individuals. It is also the most sturdy sharpest material money can buy, but who cares about that?",
+    "quality": 6,
+    "weight": 5,
+    "sharpness": 1.75,
+    "difficulty": 2,
+    "price": 800
+},
+{
+    "name": "Dark Steel",
+    "description": "The bigger brother of good ol' steel, it's sharper and sturdier at the same weight. Although the most obvious change is the price...sorry folks!",
+    "quality": 5,
+    "weight": 3,
+    "sharpness": 1.5,
+    "difficulty": 1.75,
+    "price": 750
+}]
